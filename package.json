@@ -1,0 +1,21 @@
+{
+  "name": "decentralized-academic-transcript",
+  "version": "1.0.0",
+  "description": "A decentralized academic transcript registry using Ethereum smart contracts",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network testnet"
+  },
+  "keywords": [],
+  "author": "R",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.22.1"
+  },
+  "dependencies": {
+    "ethers": "^6.8.1"
+  }
+}
