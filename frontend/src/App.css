@@ -1,0 +1,75 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+.app-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #00e6e6;
+  margin-bottom: 2rem;
+}
+
+.account-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.card {
+  background: #1f2937;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+  color: #66fcf1;
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #2d3748;
+  color: white;
+}
+
+button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.transcript-details {
+  background-color: #2a2e35;
+  border-left: 4px solid #00e6e6;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
