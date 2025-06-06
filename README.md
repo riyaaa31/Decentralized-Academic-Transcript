@@ -1,60 +1,85 @@
-# Decentralized Academic Transcript Repository
+# 🎓 Decentralized Academic Transcript Repository
 
-## 📘 Table of Contents
-- [Project Title](#project-title)
-- [Project Description](#project-description)
-- [Project Vision](#project-vision)
-- [Future Scope](#future-scope)
-- [Key Features](#key-features)
+> A blockchain-powered platform to **issue**, **store**, and **verify** academic transcripts in a **tamper-proof**, **transparent**, and **student-owned** way.
 
 ---
 
-## 🏷️ Project Title
-**Decentralized Academic Transcript Repository**
+## 🧭 Table of Contents
+- [🚀 Project Overview](#-project-overview)
+- [🎯 Vision](#-vision)
+- [🛠️ Key Features](#️-key-features)
+- [📸 UI Preview](#-ui-preview)
+- [🏗️ Tech Stack](#-tech-stack)
+- [📦 Smart Contract](#-smart-contract)
+- [📈 Future Roadmap](#-future-roadmap)
+- [🤝 Contributors & Credits](#-contributors--credits)
 
 ---
 
-## 📄 Project Description
+## 🚀 Project Overview
 
-A blockchain-based platform that enables students to securely store and share verified academic transcripts across educational institutions and employers globally. By leveraging the immutability and transparency of blockchain technology, the system ensures authenticity, prevents tampering, and eliminates the dependency on centralized academic databases.
+**Decentralized Academic Transcript Repository** is a full-stack dApp deployed on **CoreDAO**, enabling institutions to issue and verify student transcripts securely using blockchain and IPFS.
 
-The smart contract is deployed on the CoreDAO blockchain to utilize its scalability, low transaction costs, and decentralized security model.
+🎯 Say goodbye to forged documents and central databases.  
+🎓 Let students truly **own their credentials**.
 
----
-
-## 🎯 Project Vision
-
-The goal of this project is to revolutionize the way academic credentials are stored and verified by:
-
-- Empowering students with ownership of their academic records.
-- Allowing institutions to issue verifiable transcripts securely on-chain.
-- Reducing administrative overhead and fraud related to certificate issuance and verification.
-- Promoting a globally trusted and interoperable educational credentialing system.
+> 📌 Built with transparency, security, and global interoperability at its core.
 
 ---
 
-## 🚀 Future Scope
+## 🎯 Vision
 
-The project sets the foundation for a global decentralized academic credentials network. In the future, it may expand to include:
+Our mission is to **transform global academic credentialing** by:
 
-- Zero-knowledge proofs for privacy-preserving transcript sharing.
-- Tokenized certifications and badges (NFTs) for skills and micro-credentials.
-- Integration with decentralized identity (DID) standards.
-- A student-focused frontend dApp with verifiable sharing options.
-- Employer verification portals.
+✅ Putting transcript ownership in the hands of students  
+✅ Enabling institutions to register & issue authenticated records  
+✅ Empowering employers to verify transcripts without intermediaries  
+✅ Eliminating fraud and bureaucratic inefficiency
 
 ---
 
-### 🔑 Key Features
+## 🛠️ Key Features
 
-- ✅ **On-chain transcript registration** with IPFS hash storage.
-- 🛡️ **Only verified institutions** can issue transcripts.
-- 🔍 **Public verification** of transcript authenticity.
-- 🎓 **Student ownership** of academic credentials.
-- 🌐 **Interoperability** across global institutions.
-- 🔐 **Tamper-proof and immutable** credential storage.
+| Feature                         | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| 🔐 **On-Chain Issuance**      | Institutions issue transcripts with IPFS hashes stored immutably on-chain  |
+| 🎓 **Student-Owned Records**  | Students control access and visibility of their credentials                |
+| ✅ **Verification System**     | Anyone can verify a transcript’s authenticity using student ID & transcript ID |
+| 🏛️ **Institution Registry**   | Admins can register or revoke trusted institutions                         |
+| 🌐 **CoreDAO Integration**     | Built on CoreDAO for fast, low-cost, decentralized operations              |
+| 🧾 **IPFS Hashing**            | Secure off-chain document storage linked to blockchain                     |
 
-## Contract addres 
-0x9565E8D3d7dD8e43EB2dD5DeC8Cfdc0Bdbd64c9E
+---
 
-![image](https://github.com/user-attachments/assets/bf27e527-33d0-48a3-92d9-a86a528afe45)
+## 📸 UI Preview
+
+> 🖼️ Below are screenshots of the fully responsive and animated UI/UX built with **React.js** and Tailwind CSS.
+
+![image](https://github.com/user-attachments/assets/bf27e527-33d0-48a3-92d9-a86a528afe45) 
+
+> Upload your UI screenshots here (drag & drop in GitHub or host elsewhere):
+
+- ![Home Dashboard]
+  ![Screenshot 2025-06-06 215945](https://github.com/user-attachments/assets/23b0e51a-8667-4dff-9842-0579c7c0db87)
+  
+- ![Issue Transcript Panel!]
+  [Screenshot 2025-06-06 215352](https://github.com/user-attachments/assets/58fc34fd-4692-4792-81a9-fd6a96f9570e)
+
+- ![Verify Transcript]
+  ![Screenshot 2025-06-06 215622](https://github.com/user-attachments/assets/22b8403c-9548-4881-a725-1162777b03b2)
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer         | Technology                             |
+|---------------|-----------------------------------------|
+| ⚙️ Smart Contract | Solidity, Hardhat                     |
+| 🌐 Frontend    | React.js, Tailwind CSS, Ethers.js       |
+| 📡 Blockchain  | CoreDAO EVM-compatible Testnet          |
+| 🗂️ Storage     | IPFS via Web3.storage or NFT.storage    |
+
+---
+
+## 📦 Smart Contract
+> ✅ **Deployed Address** (CoreDAO Testnet): 0x9565E8D3d7dD8e43EB2dD5DeC8Cfdc0Bdbd64c9E
