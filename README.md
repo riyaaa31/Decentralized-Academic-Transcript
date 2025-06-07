@@ -59,14 +59,15 @@ Our mission is to **transform global academic credentialing** by:
 
 > Upload your UI screenshots here (drag & drop in GitHub or host elsewhere):
 
-- ![Home Dashboard]
   ![Screenshot 2025-06-06 215945](https://github.com/user-attachments/assets/23b0e51a-8667-4dff-9842-0579c7c0db87)
-  
-- ![Issue Transcript Panel!]
+
   [Screenshot 2025-06-06 215352](https://github.com/user-attachments/assets/58fc34fd-4692-4792-81a9-fd6a96f9570e)
 
-- ![Verify Transcript]
   ![Screenshot 2025-06-06 215622](https://github.com/user-attachments/assets/22b8403c-9548-4881-a725-1162777b03b2)
+
+ ![Screenshot 2025-06-06 215352](https://github.com/user-attachments/assets/80e19bdd-45db-41a1-b44b-491838447ca5)
+
+
 
 ---
 
