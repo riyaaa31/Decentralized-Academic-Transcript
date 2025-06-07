@@ -1,75 +1,124 @@
 /* App.css */
+
+/* ===== Body & Base Styling ===== */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: #ffffff;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
 }
 
 .app-container {
-  padding: 2rem;
-  max-width: 800px;
+  padding: 2.5rem 1rem;
+  max-width: 900px;
   margin: auto;
 }
 
+/* ===== Typography ===== */
 .main-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
-  color: #00e6e6;
+  background: linear-gradient(to right, #00e6e6, #66fcf1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .account-info {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-style: italic;
-  color: #cccccc;
+  color: #bbbbbb;
 }
 
+/* ===== Card Design ===== */
 .card {
-  background: #1f2937;
-  border-radius: 16px;
-  padding: 20px;
+  background: rgba(31, 41, 55, 0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 24px;
   margin-bottom: 2rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
 }
 
 .card h2 {
   color: #66fcf1;
   margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
+/* ===== Inputs ===== */
 input {
   display: block;
   width: 100%;
-  margin-bottom: 12px;
-  padding: 12px;
+  margin-bottom: 16px;
+  padding: 14px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 1rem;
   background-color: #2d3748;
-  color: white;
+  color: #ffffff;
+  outline: none;
+  transition: box-shadow 0.2s ease;
 }
 
+input:focus {
+  box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.4);
+}
+
+/* ===== Buttons ===== */
 button {
-  background-color: #00bcd4;
-  color: white;
+  background: linear-gradient(to right, #00bcd4, #0097a7);
+  color: #ffffff;
   border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background 0.3s ease, transform 0.2s;
+  width: 100%;
 }
 
 button:hover {
-  background-color: #0097a7;
+  background: linear-gradient(to right, #00acc1, #007c91);
+  transform: scale(1.03);
 }
 
+/* ===== Transcript Display ===== */
 .transcript-details {
-  background-color: #2a2e35;
-  border-left: 4px solid #00e6e6;
-  padding: 1rem;
+  background-color: rgba(42, 46, 53, 0.9);
+  border-left: 5px solid #00e6e6;
+  padding: 1rem 1.25rem;
   margin-top: 1rem;
-  border-radius: 8px;
+  border-radius: 10px;
+  line-height: 1.6;
+  box-shadow: inset 0 0 10px rgba(0, 230, 230, 0.1);
+}
+
+.transcript-details p {
+  margin: 0.3rem 0;
+  color: #e0e0e0;
+}
+
+.transcript-details a {
+  color: #00e6e6;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.transcript-details a:hover {
+  color: #66fcf1;
 }
